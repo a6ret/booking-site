@@ -2,7 +2,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='navbar'>
+        <nav className='navbar'>
             <div className='navContainer'>
                 <span className='logo'>dewabooking</span>
                 <div className='navItems'>
@@ -10,7 +10,7 @@ const Navbar = () => {
                     <button className='navButton'>Login</button>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 

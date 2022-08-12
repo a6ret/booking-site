@@ -3,7 +3,7 @@ import './header.css';
 
 const Header = () => {
     return (
-        <div className='header'>
+        <header className='header'>
             <div className='headerList'>
                 <div className='headerListItem'>
                     <FaBed />
@@ -26,7 +26,7 @@ const Header = () => {
                     <span>Airport Taxis</span>
                 </div>
             </div>
-        </div>
+        </header>
     );
 };
 
