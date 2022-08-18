@@ -87,7 +87,7 @@ const Header = ({ type }) => {
                         </button>
 
                         <div className='headerSearch'>
-                            <div className='headerSearchItem'>
+                            <div className='headerSearchItem bdr'>
                                 <FaBed className='headerIcon' />
                                 <input
                                     type='text'
@@ -95,7 +95,7 @@ const Header = ({ type }) => {
                                     className='headerSearchInput'
                                 />
                             </div>
-                            <div className='headerSearchItem'>
+                            <div className='headerSearchItem bdr'>
                                 <FaCalendarDay className='headerIcon' />
                                 <span
                                     className='headerSearchText'
@@ -120,7 +120,7 @@ const Header = ({ type }) => {
                                     />
                                 )}
                             </div>
-                            <div className='headerSearchItem'>
+                            <div className='headerSearchItem bdr'>
                                 <MdPeople className='headerIcon' />
                                 <span
                                     onClick={() => setOpenOptions(!openOptions)}
